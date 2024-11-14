@@ -1,6 +1,7 @@
 <?php
 
-$size = "M";
+echo"Choose a size: ";
+$size = trim(fgets(STDIN));
 
 switch($size) {
     case "S":
